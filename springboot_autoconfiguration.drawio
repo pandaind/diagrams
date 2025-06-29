@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Spring Boot Autoconfiguration" id="0j5PDQSHjf7VnaahmMwg">
+    <mxGraphModel dx="3024" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="simple">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="150" height="1358" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-2" value="SpringBootApplication" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="235" y="20" width="189" height="1358" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-3" value="SpringCore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="532" y="20" width="150" height="1358" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-4" value="Classpath" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="1126" y="20" width="150" height="1358" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-5" value="AutoConfigurationClass" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="1326" y="20" width="200" height="1358" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-6" value="ApplicationContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="1830" y="20" width="164" height="1358" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-7" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#457B9D;height=20;width=30;labelBackgroundColor=none;fillColor=#A8DADC;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="523" y="710" width="1400" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-8" value="[Bean Conditions Pass]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#1D3557;" parent="-L8ZEMrk3QfNE2hkxTwG-7" vertex="1">
+          <mxGeometry x="30" width="1370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-9" value="[Bean Conditions Fail]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#457B9D;labelBackgroundColor=none;fillColor=#A8DADC;fontColor=#1D3557;" parent="-L8ZEMrk3QfNE2hkxTwG-7" vertex="1">
+          <mxGeometry y="146" width="1400" height="3" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-10" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#457B9D;height=20;width=40;labelBackgroundColor=none;fillColor=#A8DADC;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="513" y="521" width="1420" height="493" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-11" value="[For each @Bean method]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#1D3557;" parent="-L8ZEMrk3QfNE2hkxTwG-10" vertex="1">
+          <mxGeometry x="40" width="1380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-12" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#457B9D;height=20;width=30;labelBackgroundColor=none;fillColor=#A8DADC;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="484" y="428" width="1460" height="749" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-13" value="[Conditions Pass]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#1D3557;" parent="-L8ZEMrk3QfNE2hkxTwG-12" vertex="1">
+          <mxGeometry x="30" width="1430" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-14" value="[Class Conditions Fail]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#457B9D;labelBackgroundColor=none;fillColor=#A8DADC;fontColor=#1D3557;" parent="-L8ZEMrk3QfNE2hkxTwG-12" vertex="1">
+          <mxGeometry y="601" width="1460" height="3" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-15" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#457B9D;height=20;width=40;labelBackgroundColor=none;fillColor=#A8DADC;fontColor=#1D3557;" parent="1" vertex="1">
+          <mxGeometry x="474" y="287" width="1480" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-16" value="[For each AutoConfiguration Candidate]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#1D3557;" parent="-L8ZEMrk3QfNE2hkxTwG-15" vertex="1">
+          <mxGeometry x="40" width="1440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-17" value="Runs main() method" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-1" target="-L8ZEMrk3QfNE2hkxTwG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-18" value="Starts up" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-2" target="-L8ZEMrk3QfNE2hkxTwG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="477" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-19" value="Scans for META-INF/.../AutoConfiguration.imports files" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-3" target="-L8ZEMrk3QfNE2hkxTwG-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="913" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-20" value="Returns list of candidate classes (e.g., DataSourceAutoConfiguration)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-4" target="-L8ZEMrk3QfNE2hkxTwG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="916" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-21" value="Evaluate class-level conditions" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-3" target="-L8ZEMrk3QfNE2hkxTwG-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-22" value="Check @ConditionalOnClass(DataSource.class) on Classpath" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-5" target="-L8ZEMrk3QfNE2hkxTwG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1028" y="408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-23" value="Process @Bean methods" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-3" target="-L8ZEMrk3QfNE2hkxTwG-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="501" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-24" value="Evaluate bean-level conditions" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-3" target="-L8ZEMrk3QfNE2hkxTwG-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-25" value="Check @ConditionalOnClass(H2Driver.class) on Classpath" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-5" target="-L8ZEMrk3QfNE2hkxTwG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1028" y="642" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-26" value="Check @ConditionalOnMissingBean(DataSource.class)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-5" target="-L8ZEMrk3QfNE2hkxTwG-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1678" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-27" value="Create and register bean (e.g., h2DataSource)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-3" target="-L8ZEMrk3QfNE2hkxTwG-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1268" y="783" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-28" value="Bean registered" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-6" target="-L8ZEMrk3QfNE2hkxTwG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1271" y="831" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-29" value="Skip bean creation" style="curved=1;endArrow=block;rounded=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-3" target="-L8ZEMrk3QfNE2hkxTwG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="924" />
+              <mxPoint x="658" y="954" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-30" value="Skip entire configuration class" style="curved=1;endArrow=block;rounded=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-3" target="-L8ZEMrk3QfNE2hkxTwG-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="1097" />
+              <mxPoint x="658" y="1127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-31" value="ApplicationContext is ready" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-3" target="-L8ZEMrk3QfNE2hkxTwG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-L8ZEMrk3QfNE2hkxTwG-32" value="Application is running" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="-L8ZEMrk3QfNE2hkxTwG-2" target="-L8ZEMrk3QfNE2hkxTwG-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="224" y="1273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
